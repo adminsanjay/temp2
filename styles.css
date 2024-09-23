@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f7f8fa;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.logo p {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.contact-info {
+    text-align: right;
+}
+
+.contact-info p {
+    font-size: 14px;
+    color: #888;
+}
+
+.cta button {
+    background-color: #53c1be;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: zoom-in;
+}
+
+.cta button:hover {
+    background-color: #3aa29f;
+}
+
+nav {
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 16px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #53c1be;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    background-color: black
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h2 {
+    font-size: 42px;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 16px;
+    color: whitesmoke;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.content .btn {
+    display: inline-block;
+    background-color: #53c1be;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.content .btn:hover {
+    background-color: #3aa29f;
+}
+
+.doctor-image img {
+    max-width: 400px;
+    border-radius: 10px;
+}
